@@ -1,0 +1,73 @@
+.sales-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.sales-header {
+  margin-bottom: 30px;
+}
+
+.sales-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.sales-header p {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.sales-message {
+  color: #666;
+  padding: 20px 0;
+}
+
+.sales-table-container {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sales-table th,
+.sales-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.sales-table th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+.sales-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.sales-table td:last-child {
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .sales-page {
+    padding: 25px 15px;
+  }
+
+  .sales-header h1 {
+    font-size: 26px;
+  }
+
+  .sales-table th,
+  .sales-table td {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,29 @@
+package com.srikumaranstore.dto;
+
+import java.util.List;
+
+public class SaleRequest {
+
+    private List<SaleItemRequest> items;
+
+    private String paymentMethod;
+
+    public SaleRequest() {
+    }
+
+    public List<SaleItemRequest> getItems() {
+        return items;
+    }
+
+    public void setItems(List<SaleItemRequest> items) {
+        this.items = items;
+    }
+
+    public String getPaymentMethod() {
+        return paymentMethod;
+    }
+
+    public void setPaymentMethod(String paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+}
